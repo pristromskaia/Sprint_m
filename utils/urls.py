@@ -1,0 +1,6 @@
+BASE_URL = "https://qa-desk.education-services.ru"
+REGISTER_URL = f"{BASE_URL}/api/signup"
+LOGIN_URL = f"{BASE_URL}/api/signin"
+CREATE_AD_URL = f"{BASE_URL}/api/create-listing"
+UPDATE_AD_URL = f"{BASE_URL}/api/update-offer/"
+DELETE_AD_URL = f"{BASE_URL}/api/listings/"
