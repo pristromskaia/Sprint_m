@@ -53,3 +53,16 @@ def other_user_token():
     user_data = generate_user_data()
     register_user(user_data)
     return get_auth_token(user_data)
+
+
+@pytest.fixture
+def cleanup_created_ad(auth_token):
+    created_ad = {}
+
+    yield created_ad
+
+    if "id" in created_ad:
+        try:
+            delete_ad(auth_token, created_ad["id"])
+        except Exception as e:
+            print(f"\n[Teardown Warning] Не удалось удалить объявление: {e}")
