@@ -1,0 +1,17 @@
+AD_NAME = "Тестовое объявление"
+AD_CATEGORY = "Авто"
+AD_CONDITION = "Новый"
+AD_CITY = "Москва"
+AD_DESCRIPTION = "Описание объявления"
+AD_PRICE = "1000"
+
+NEW_AD_NAME = "Обновлённое объявление"
+NEW_AD_CATEGORY = "Садоводство"
+NEW_AD_CONDITION = "Б/у"
+NEW_AD_CITY = "Санкт-Петербург"
+NEW_AD_DESCRIPTION = "Обновлённое описание"
+NEW_AD_PRICE = "1500"
+IMAGE_VALUE = "null"
+
+REGISTER_PASSWORD = "Test1234"
+SUBMIT_PASSWORD = "Test1234"
